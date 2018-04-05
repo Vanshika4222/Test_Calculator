@@ -1,4 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <settings>
+	<pluginGroups>
+		<pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+	</pluginGroups>
 	<servers>
 		<server>
 			<id>artifactory</id>
@@ -7,8 +11,8 @@
 		</server>
 		<server>
 			<id>nexus</id>
-			<username>etajava</username>
-			<password>etajavapwd</password>
+			<username>#Replace username here#</username>
+			<password>#Replace password here#</password>
 			<configuration>
 				<httpConfiguration>
 					<all>
@@ -23,7 +27,7 @@
 				<httpHeaders>
 					<property>
 						<name>username</name>
-						<value>etajava</value>
+						<value>#Replace username here#</value>
 					</property>
 				</httpHeaders>
 			</configuration>
@@ -35,8 +39,7 @@
 			<!--This sends everything else to /public -->
 			<id>nexus</id>
 			<mirrorOf>*</mirrorOf>
-			<url>http://infynexus/nexus/content/groups/ETA/</url>
-
+			<url>http://infynp/repository/maven-public/</url>
 		</mirror>
 	</mirrors>
 	<profiles>
@@ -68,13 +71,21 @@
 					</snapshots>
 				</pluginRepository>
 			</pluginRepositories>
-			<properties>
-				<archetypeCatalog>http://infynexus/nexus/content/groups/PUBLIC_REPO/
-				</archetypeCatalog>
-			</properties>
-
 		</profile>
 	</profiles>
+	<profile>
+		<id>sonar</id>
+		<activation>
+			<activeByDefault>true</activeByDefault>
+		</activation>
+		<properties>
+			<!-- Optional URL to server. Default value is http://localhost:9000 -->
+			<sonar.host.url>
+				http://localhost:9000
+			</sonar.host.url>
+		</properties>
+	</profile>
+	<profiles />
 	<activeProfiles>
 		<!--make the profile active all the time -->
 		<activeProfile>nexus</activeProfile>
