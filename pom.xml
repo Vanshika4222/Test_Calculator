@@ -67,7 +67,7 @@
 		<repository>
 			<id>artifactory</id>
 			<name>Calc_Dev_Snapshot</name>
-			<url>http://mysgec372726d:8081/artifactory/Calc_Dev_Snapshot</url>
+			<url>http://myshec140193l:8081/artifactory/Calc_Dev_Snapshot</url>
 		</repository>
 	</distributionManagement>
 </project>
