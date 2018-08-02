@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.ms</groupId>
-	<artifactId>com.ms.calc</artifactId>
+	<groupId>ETA</groupId>
+	<artifactId>calculator</artifactId>
 	<packaging>war</packaging>
 	
 <version>0.0.1-SNAPSHOT</version>
-	<name>com.ms.calc Calc Webapp</name>
+	<name>Calculator_WebApp</name>
 	<url>http://cal.ms.com</url>
 	
 	<dependencies>
@@ -28,7 +28,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.language>java</sonar.language>
-		<sonar.host.url>http://mysgec372726d:9000</sonar.host.url>
+		<sonar.host.url>http://vchnsemys-09:9000</sonar.host.url>
 	</properties>
 	<build>
 		<finalName>com.ms.calc</finalName>
@@ -67,7 +67,7 @@
 		<repository>
 			<id>artifactory</id>
 			<name>Calc_Dev_Snapshot</name>
-			<url>http://myshec140193l:8081/artifactory/Calc_Dev_Snapshot</url>
+			<url>http://vchnsemys-09:90001/artifactory/Calc_Dev_Snapshot</url>
 		</repository>
 	</distributionManagement>
 </project>
