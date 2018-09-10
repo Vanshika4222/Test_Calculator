@@ -8,15 +8,15 @@
 <body bgcolor="white">
 <form method="get" action="./CalculateServlet">
 
-Number 1 : <input type="text" name="Number 1"> <br>
-Number 2 : <input type="text" name="Number 2"> <br>
+Number 1 : <input type="text" name="no1"> <br>
+Number 2 : <input type="text" name="no2"> <br>
 
 
 <select name="opt">
-<option value="Addition "> + </option>
-<option value="subtraction"> - </option>
-<option value="multiply"> * </option>
-<option value="division "> / </option>
+<option value="1" selected="selected"> + </option>
+<option value="2"> - </option>
+<option value="3"> * </option>
+<option value="4"> / </option>
 </select>
 
 <br>

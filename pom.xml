@@ -28,7 +28,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.language>java</sonar.language>
-		<sonar.host.url>http://vchnsemys-09:9000</sonar.host.url>
+		<sonar.host.url>http://localhost:9000</sonar.host.url>
 	</properties>
 	<build>
 		<finalName>com.ms.calc</finalName>
@@ -67,7 +67,7 @@
 		<repository>
 			<id>artifactory</id>
 			<name>Calc_Dev_Snapshot</name>
-			<url>http://vchnsemys-09:8081/artifactory/Calc_Dev_Snapshot</url>
+			<url>http://localhost:8081/artifactory/Calc_Dev_Snapshot</url>
 		</repository>
 	</distributionManagement>
 </project>
