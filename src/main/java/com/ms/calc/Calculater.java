@@ -3,6 +3,7 @@ package com.ms.calc;
 public class Calculater {
 
 	public double doAdd(double num1, double num2) {
+		// comments for Addition function here
 		return num1 + num2;
 	}
 
