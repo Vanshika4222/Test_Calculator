@@ -11,8 +11,8 @@
 		</server>
 		<server>
 			<id>nexus</id>
-			<username>#Replace username here#</username>
-			<password>#Replace password here#</password>
+			<username>madhurima.c03</username>
+			<password>YinYang!</password>
 			<configuration>
 				<httpConfiguration>
 					<all>
@@ -27,7 +27,7 @@
 				<httpHeaders>
 					<property>
 						<name>username</name>
-						<value>#Replace username here#</value>
+						<value>madhurima.c03</value>
 					</property>
 				</httpHeaders>
 			</configuration>
