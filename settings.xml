@@ -12,7 +12,7 @@
 		<server>
 			<id>nexus</id>
 			<username>madhurima.c03</username>
-			<password>YinYang!</password>
+			<password>(enter pwd here)</password>
 			<configuration>
 				<httpConfiguration>
 					<all>
@@ -85,7 +85,6 @@
 			</sonar.host.url>
 		</properties>
 	</profile>
-	<profiles />
 	<activeProfiles>
 		<!--make the profile active all the time -->
 		<activeProfile>nexus</activeProfile>
