@@ -12,7 +12,7 @@
 		<server>
 			<id>nexus</id>
 			<username>madhurima.c03</username>
-			<password>YinYang!</password>
+			<password>(pwd)</password>
 			<configuration>
 				<httpConfiguration>
 					<all>
