@@ -2,8 +2,14 @@ package com.ms.calc;
 
 public class Calculater {
 
+	/**
+	 * Function for addition
+	 * 
+	 * @param num1
+	 * @param num2
+	 * @return
+	 */
 	public double doAdd(double num1, double num2) {
-		// comments for Addition function here
 		return num1 + num2;
 	}
 
