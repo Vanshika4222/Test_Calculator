@@ -5,8 +5,8 @@ public class Calculater {
 	/**
 	 * Function for addition
 	 * 
-	 * @param num1
-	 * @param num2
+	 * @param num1 First input number
+	 * @param num2 Second input number
 	 * @return
 	 */
 	public double doAdd(double num1, double num2) {
