@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>cal.ms.com</title>
+<title>Calculator Web App</title>
 <body bgcolor="yellow">
 <form method="get" action="./CalculateServlet">
 
