@@ -2,11 +2,24 @@ package com.ms.calc;
 
 public class Calculater {
 
+	/**
+	 * Function for addition
+	 * 
+	 * @param num1 First input number
+	 * @param num2 Second input number
+	 * @return
+	 */
 	public double doAdd(double num1, double num2) {
-		// comments for Addition function here
 		return num1 + num2;
 	}
 
+	/**
+	 * Function for subtraction
+	 * 
+	 * @param num1
+	 * @param num2
+	 * @return
+	 */
 	public double doSub(double num1, double num2) {
 		//comment line
 		return num1 - num2;

@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>cal.ms.com</title>
-<body bgcolor="slateblue">
+<title>Calculator Web App</title>
+<body bgcolor="white">
 <form method="get" action="./CalculateServlet">
 
 Number 1 : <input type="text" name="no1"> <br>
@@ -24,4 +24,3 @@ Number 2 : <input type="text" name="no2"> <br>
 </form>
 </body>
 </html>
-<!-- seting up jenkins -->
