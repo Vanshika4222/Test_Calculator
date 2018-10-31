@@ -13,6 +13,13 @@ public class Calculater {
 		return num1 + num2;
 	}
 
+	/**
+	 * Function for subtraction
+	 * 
+	 * @param num1
+	 * @param num2
+	 * @return
+	 */
 	public double doSub(double num1, double num2) {
 		//comment line
 		return num1 - num2;
