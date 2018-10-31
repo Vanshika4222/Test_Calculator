@@ -24,4 +24,3 @@ Number 2 : <input type="text" name="no2"> <br>
 </form>
 </body>
 </html>
-<!-- seting up jenkins -->
