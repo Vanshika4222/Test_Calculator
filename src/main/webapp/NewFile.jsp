@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Calculator Manager Page</title>
 </head>
 <body>
-	<form>
-	 	<input type="submit" value="Go">
-	</form>
+ <form>
+ 	<input type="submit" value="Go">
+ </form>
 </body>
 </html>
