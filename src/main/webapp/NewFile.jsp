@@ -12,3 +12,4 @@
  </form>
 </body>
 </html>
+<!-- A Thursday can never be a Friday -->
