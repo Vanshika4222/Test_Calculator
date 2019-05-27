@@ -13,4 +13,3 @@
 </body>
 </html>
 <!-- A Thursday can never be a Friday -->
-<!-- An apple a day doesn't keep the doctor away -->
