@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Calculator Web App</title>
-<body bgcolor="orange">
+<body bgcolor="black">
 <form method="get" action="./CalculateServlet">
 
 Number 1 : <input type="text" name="no1"> <br>
