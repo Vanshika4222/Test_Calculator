@@ -5,7 +5,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Calculator Web App</title>
+<<<<<<< HEAD
 <body bgcolor="green">
+=======
+<body bgcolor="black">
+>>>>>>> refs/remotes/origin/master
 <form method="get" action="./CalculateServlet">
 
 Number 1 : <input type="text" name="no1"> <br>
