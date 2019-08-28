@@ -28,6 +28,7 @@ public class CalculaterTest {
 
 	  @Test
 	  public void testAdd() {
+		  //adding comment
 	 assertTrue(cl.doAdd(1,2)==3);
 	  }
 	  
